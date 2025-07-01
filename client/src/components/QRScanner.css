@@ -1,0 +1,153 @@
+.qr-scanner {
+  min-height: calc(100vh - 80px);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scanner-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.scanner-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.scanner-container > p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.scanner-section {
+  margin-bottom: 30px;
+}
+
+.camera-placeholder {
+  background: #f8f9fa;
+  border: 2px dashed #dee2e6;
+  border-radius: 10px;
+  padding: 60px 20px;
+  margin-bottom: 20px;
+}
+
+.camera-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.camera-placeholder p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.manual-input {
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+.demo-codes {
+  border-top: 1px solid #e9ecef;
+  padding-top: 30px;
+}
+
+.demo-codes h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.demo-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.demo-btn {
+  padding: 10px 20px;
+  background: #e9ecef;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.demo-btn:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .scanner-container {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .demo-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .demo-btn {
+    width: 100%;
+    max-width: 200px;
+  }
+} 
