@@ -1,0 +1,19 @@
+# Node
+client/node_modules/
+server/node_modules/
+client/.gitignore
+.env
+npm-debug.log
+
+# React
+client/build/
+
+# OS files
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Optional for VS Code
+.vscode/
