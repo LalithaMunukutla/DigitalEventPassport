@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './BoothRating.css';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
 const BoothRating = ({ visit, booth, attendee, onRatingComplete }) => {
   const [rating, setRating] = useState(0);
